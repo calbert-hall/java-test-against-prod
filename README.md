@@ -1,6 +1,6 @@
-# Applitools Hackathon: Java
+# Applitools Autozone: Java
 
-### READ FIRST: Hackathon Structure 
+### READ FIRST: Autozone Structure 
 1. At least **one week before the hackathon**, complete the pre-requisites as well as run the first example to ensure that everything has been installed correctly. 
 2. On the day of the hackathon, follow the instructions in the hackathon section. 
 3. If you finish the hackathon exercises with extra time available (or want to experiment more after the event), 
@@ -50,11 +50,11 @@
 
    6.3 Run or Debug class BasicDemo or method test().
 
-# Hackathon Exercise!
+# Autozone Exercise!
 
 * In this exercise, you'll be a Test Engineer looking to run tests on an e-commerce site, "Applifashion". 
   You'll be using Applitools to find and report bugs and handle dynamic content using Applitools' visual AI.
-  You'll be working in the `Hackathon_Activity` file in `src/test/java/Hackathon`. An example solution is available in the `Hackathon_Solution` file, but don't look unless you're stuck! If you want to see view the expected results, you can run `mvn -D test=Hackathon_Solution test
+  You'll be working in the `Hackathon_Activity` file in `src/test/java/Autozone`. An example solution is available in the `Hackathon_Solution` file, but don't look unless you're stuck! If you want to see view the expected results, you can run `mvn -D test=Hackathon_Solution test
 `.
 
 1. Open up the `Hackathon_Activity` java file. Put your name (or team name) as the Batch name, and be sure to set your API key as you did in the first example. You can run this using `mvn -D test=Hackathon_Activity -D devUrl=applifashionv1 test`.

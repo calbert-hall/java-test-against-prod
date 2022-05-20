@@ -1,4 +1,4 @@
-package Hackathon;
+package Autozone;
 
 import com.applitools.eyes.*;
 import com.applitools.eyes.selenium.*;
@@ -7,14 +7,11 @@ import com.applitools.eyes.visualgrid.model.DeviceName;
 import com.applitools.eyes.visualgrid.model.ScreenOrientation;
 import com.applitools.eyes.visualgrid.services.VisualGridRunner;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.rmi.UnexpectedException;
 
-
-public class Hackathon_Solution {
+public class Autozone_Tests {
 
 	public final String prod_url= "https://demo.applitools.com/gridHackathonV1.html";
 	public final String qa_url= "https://demo.applitools.com/gridHackathonV2.html";

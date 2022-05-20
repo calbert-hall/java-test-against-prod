@@ -1,11 +1,10 @@
-package Hackathon;
+package Autozone;
 
 import java.rmi.UnexpectedException;
 
 import javax.ws.rs.NotSupportedException;
 
 import com.applitools.eyes.EyesRunner;
-import com.applitools.eyes.visualgrid.services.VisualGridRunner;
 import org.openqa.selenium.WebDriver;
 
 import com.applitools.eyes.BatchInfo;
