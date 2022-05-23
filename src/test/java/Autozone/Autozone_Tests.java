@@ -73,6 +73,7 @@ public class Autozone_Tests {
 
 		// set the configuration to eyes
 		eyes.setConfiguration(config);
+		eyes.setLogHandler(new StdoutLogHandler(true));
 	}
 
 	private void TestApp(WebDriver driver, Eyes eyes, String url, boolean establishBaseline) {
@@ -86,13 +87,16 @@ public class Autozone_Tests {
 		System.out.println("Eyes Check");
 		eyes.check(Target.window().fully().withName("Main Page - " + url));
 
-		TestResults testResults = eyes.close(false);
+		TestResults testResults = eyes.close();
 		if (establishBaseline) {
-			testResults.delete(); //Not working, unsure why.
+
+			System.out.println(("Test ID to delete: " + testResults.getId()));
+			testResults.delete(); //Not working; works pre-universal
 			System.out.println("Comparison test deleted");
 		}
 	}
 	
+			//System.out.println(("Test secret token: " + testResults.getSecretToken()));
 	private void tearDown(WebDriver driver, EyesRunner runner) {
 		driver.quit();
 
